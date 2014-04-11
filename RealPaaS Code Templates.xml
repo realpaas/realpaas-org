@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><templates><template autoinsert="true" context="fieldcomment_context" deleted="false" description="Comment for fields" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.fieldcomment" name="fieldcomment">/**
+ * 
+ */</template><template autoinsert="true" context="delegatecomment_context" deleted="false" description="Comment for delegate methods" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.delegatecomment" name="delegatecomment">/**
+ * ${tags}
+ * ${see_to_target}
+ */</template><template autoinsert="true" context="gettercomment_context" deleted="false" description="Comment for getter method" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.gettercomment" name="gettercomment">/**
+ * @return the ${bare_field_name}
+ */</template><template autoinsert="false" context="typecomment_context" deleted="false" description="Comment for created types" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.typecomment" name="typecomment">/**
+ * &lt;p&gt;
+ * 
+ * &lt;dl&gt;
+ * &lt;dt&gt;&lt;b&gt;Examples:&lt;/b&gt;&lt;/dt&gt;
+ * &lt;p&gt;
+ * &lt;pre&gt;
+ * 
+ * &lt;/pre&gt;
+ * 
+ * &lt;p&gt;&lt;dt&gt;&lt;b&gt;Immutability:&lt;/b&gt;&lt;/dt&gt; 
+ * &lt;dd&gt;
+ * 	&lt;b&gt;IMMUTABLE&lt;/b&gt; and &lt;b&gt;MUTABLE&lt;/b&gt;
+ * &lt;/dd&gt;
+ * 
+ * &lt;p&gt;&lt;dt&gt;&lt;b&gt;Thread Safety:&lt;/b&gt;&lt;/dt&gt; 
+ * &lt;dd&gt;
+ * 	&lt;b&gt;NOT-THREAD-SAFE&lt;/b&gt; and &lt;b&gt;NOT-APPLICABLE&lt;/b&gt; (for it will never be used on multi-thread occasion.)
+ * &lt;/dd&gt;
+ * 
+ * &lt;p&gt;&lt;dt&gt;&lt;b&gt;Serialization:&lt;/b&gt;&lt;/dt&gt;
+ * &lt;dd&gt;
+ * 	&lt;b&gt;NOT-SERIALIIZABLE&lt;/b&gt; and &lt;b&gt;NOT-APPLICABLE&lt;/b&gt; (for it have no need to be serializable.)
+ * &lt;/dd&gt;
+ * 
+ * &lt;p&gt;&lt;dt&gt;&lt;b&gt;Design Patterns:&lt;/b&gt;&lt;/dt&gt;
+ * &lt;dd&gt;
+ * 	
+ * &lt;/dd&gt;
+ * 
+ * &lt;p&gt;&lt;dt&gt;&lt;b&gt;Change History:&lt;/b&gt;&lt;/dt&gt;
+ * &lt;dd&gt;
+ * 	Date		Author		Action
+ * &lt;/dd&gt;
+ * &lt;dd&gt;
+ * 	${date}	${user}	Create the class
+ * &lt;/dd&gt;
+ * 
+ * &lt;/dl&gt;
+ * @author	${user} Email/MSN: hongli_leu@126.com
+ */</template><template autoinsert="false" context="filecomment_context" deleted="false" description="Comment for created Java files" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.filecomment" name="filecomment">/**
+ * Copyright (c) 2012, RealPaaS Technologies, Ltd. All rights reserved.
+ */</template><template autoinsert="true" context="settercomment_context" deleted="false" description="Comment for setter method" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.settercomment" name="settercomment">/**
+ * @param ${param} the ${bare_field_name} to set
+ */</template><template autoinsert="true" context="overridecomment_context" deleted="false" description="Comment for overriding methods" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.overridecomment" name="overridecomment">/* (non-Javadoc)
+ * ${see_to_overridden}
+ */</template><template autoinsert="true" context="methodcomment_context" deleted="false" description="Comment for non-overriding methods" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.methodcomment" name="methodcomment">/**
+ * ${tags}
+ */</template><template autoinsert="true" context="constructorcomment_context" deleted="false" description="Comment for created constructors" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.constructorcomment" name="constructorcomment">/**
+ * ${tags}
+ */</template></templates>
